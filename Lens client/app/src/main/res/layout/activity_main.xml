@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="150dp"
+            android:src="@drawable/ncrlogo"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="50"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/takePicture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LensIT"
+            tools:layout_editor_absoluteX="43dp"
+            tools:layout_editor_absoluteY="154dp"
+            android:layout_gravity="bottom"
+           />
+
+        <Button
+            android:id="@+id/shopping_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Shopping list"
+            android:layout_gravity="bottom"
+            android:layout_marginRight="10dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My chosen Product:"
+            android:gravity="center"
+            android:layout_gravity="top"
+            android:layout_marginTop="20dp"
+            android:id="@+id/myChosenProduct"/>
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/result_image"
+            android:layout_gravity="bottom"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="10"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/hackathon"
+            android:layout_marginLeft="80dp"/>
+
+    </LinearLayout>
+</LinearLayout>

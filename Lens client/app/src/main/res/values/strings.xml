@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">LensIT</string>
+    <string name="FirstName_hint"><font size="16">FirstName</font></string>
+    <string name="LastName_hint"><font size="16">LastName</font></string>
+    <string name="Email_hint"><font size="16">Email</font></string>
+    <string name="Password_hint"><font size="16">Password</font></string>
+    <string-array name="preferences">
+        <item>Kosher</item>
+        <item>Sugar Free</item>
+        <item>No Gluten</item>
+        <item>Calories</item>
+        <item>Light Lactose</item>
+        <item>Meat</item>
+        <item>Vegan</item>
+    </string-array>
+    <string name="title_activity_user_register">UserRegister</string>
+</resources>
